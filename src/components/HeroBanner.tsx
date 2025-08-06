@@ -16,8 +16,8 @@ export default function HeroBanner() {
     ];
 
     return (
-        <article className={'flex flex-col items-center justify-center text-center px-2 md:px-4 md:flex-row-reverse md:py-10 md:justify-evenly md:gap-10'}>
-            <section className={'md:max-w-xl'}>
+        <article className={'flex flex-col items-center justify-center text-center px-5 md:flex-row-reverse md:py-10 md:justify-evenly md:gap-10'}>
+            <section className={'max-w-lg md:max-w-xl'}>
                 <img src={HeroImageDesktop} alt="Hero Image" srcSet={`${HeroImageMobile} 600w, ${HeroImageDesktop} 1200w`} />
             </section>
 
